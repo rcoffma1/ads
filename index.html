@@ -18,18 +18,18 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <style>
       .visible-desk {
-        display:block;
-      }
-      .visible-palm {
         display:none;
       }
-      @media only screen and (max-width: 500px) {
+      .visible-palm {
+        display:block;
+      }
+      @media only screen and (min-width: 600px) {
         .visible-desk {
-          display:none;
-        }
-        .visible-palm {
           display:block;
         }
+        .visible-palm {
+          display:none;
+        } 
       }
     </style>
   </head>
