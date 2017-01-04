@@ -1,0 +1,14 @@
+.visible-desk {
+  display:none;
+}
+.visible-palm {
+  display:block;
+}
+@media screen and (min-width: 600px) {
+  .visible-desk {
+    display:block;
+  }
+  .visible-palm {
+    display:none;
+  } 
+}
